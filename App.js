@@ -17,7 +17,7 @@ export default function App() {
     Lato_400Regular,
   });
 
-  if(!oswaldLoaded || !latoLoaded){
+  if (!oswaldLoaded || !latoLoaded) {
     return null;
   }
   return (
